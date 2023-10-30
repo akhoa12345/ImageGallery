@@ -132,7 +132,7 @@ const App = () => {
   const [isFetching, setIsFetching] = useState(false);
   const [searchText, setSearchText] = useState('');
   const [isLoading, setIsLoading] = useState(false); // New state for loading indicator
-  const API_KEY = 'gl7PtwGaVnHY7vYoIpznO92FsOCRBBlRj5Qm_W6TCcQ'; // Your Unsplash API Key
+  const API_KEY = 'etd78jG40IazdKAgXDl2lFUzG0iUrywR970APBjK3Sg'; // Your Unsplash API Key
 
   const handleImageFetch = async (page) => {
     try {
